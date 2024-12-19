@@ -3,16 +3,21 @@
   "version": "0.2.5",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000",
+    "start": "next start",
     "lint": "next lint"
   },
   "prettier": "@epic-web/config/prettier",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@epic-web/config": "^1.12.0",
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.0.18",
+    "@mui/material": "^6.2.0",
+    "@mui/x-date-pickers": "^7.23.2",
+    "@tabler/icons-react": "^3.26.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
@@ -26,9 +31,10 @@
     "eslint-config-next": "^14.0.3",
     "framer-motion": "^10.16.5",
     "lodash": "^4.17.21",
-    "next": "^14.2.20",
+    "next": "^14.2.5",
     "rc-slider": "^10.4.0",
     "react": "^18.3.1",
+    "react-big-calendar": "^1.17.0",
     "react-datepicker": "^4.21.0",
     "react-dom": "^18.3.1",
     "react-hooks-global-state": "^2.1.0",
@@ -40,6 +46,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@types/react-big-calendar": "^1.16.0",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5"
